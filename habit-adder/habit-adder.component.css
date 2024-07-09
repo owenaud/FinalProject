@@ -1,7 +1,10 @@
-header {
-    font-size: 20px;
-    color: white;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    background-color: rgb(255, 255, 255);
+#header {
+  font-size: 20px;
+  color: #333; /* Changed to a more readable color */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9; /* Updated to a lighter background for better contrast */
+  padding: 10px; /* Added padding for better spacing */
+  border-radius: 5px; /* Added border-radius for a softer look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added a subtle shadow for depth */
 }

@@ -1,28 +1,59 @@
 .form-container {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    background-color: wheat;
-    margin-bottom: 15zpx;
+    font-size: 16px; 
+    color: #333; 
+    background-color: #f5deb3; 
+    margin-bottom: 15px;
     margin-right: 200px;
-    padding: 10px;
+    padding: 15px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /
 }
+
 .detail-header {
-    font-size: 20px;
-    color: white;
-    margin-bottom: 1px;
-    margin-top: 20px;
-    background-color: rgb(234, 110, 38);
+    font-size: 16px; 
+    color: #fff;
+    background-color: #ea6e26;
     padding: 10px;
-    margin-right: 800px;
+    margin: 20px 0 1px 0;
+    border-radius: 5px;
 }
+
 #counter {
     display: inline-block;
-    margin-right: 122px;
-}
+    margin-right: 20px;
+
 #cancel-habit {
     color: red;
-}
+    cursor: pointer; 
+
 .failClass {
-    font-size: 20px;
+    font-size: 16px; 
     color: red;
 }
+
+.tracker-container {
+    margin-top: 20px;
+}
+
+#tracker-buttons {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#date-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#date-header button,
+#date-header input {
+    margin: 0 5px;
+}
+
+#bar-graph-container {
+    margin-top: 20px;
+}
+}}
