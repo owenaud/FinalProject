@@ -1,19 +1,32 @@
-.graph {
+.graph-container {
     display: flex;
     justify-content: flex-end;
     align-content: space-between;
-    height: 20px;
     width: 525px;
     border: 5px solid black;
-    background: white;
+    background-color: white;
     margin-bottom: -20px;
+    padding: 10px; /* Optional: Added padding for better spacing */
 }
-#habit-name {
+
+.graph-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.habit-name {
     color: orange;
 }
-#bar-element {
+
+.graph-bar {
     width: 25px;
     background-color: orange;
     display: flex;
     flex-wrap: wrap;
+    height: 20px; /* Add height to match original structure */
+    margin-bottom: 10px; /* Optional: Add margin for spacing */
 }

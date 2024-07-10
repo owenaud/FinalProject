@@ -1,39 +1,39 @@
 <div class="form-container">
-    <!--Habit buttons and input-->
-    Habit Name: <input type="text" id="habitName" /><br />
-    Goal per Week: <input type="number" id="goals" />
+    <label for="habitName">Habit Name:</label>
+    <input type="text" id="habitName" /><br />
+    <label for="goals">Goal per Week:</label>
+    <input type="number" id="goals" />
     <button id="add-habit-button">Add</button>
+
     <div class="detail-header">
-        Default Habits:
+        <p>Default Habits:</p>
         <button id="gym">Gym</button>
         <button id="read">Read</button>
         <button id="study">Study</button>
         <div id="counter">0</div>
         <button id="cancel-habit">Cancel Last</button>
     </div>
+
     <div id="habitDetails">
         <div class="failClass" id="fail"></div>
     </div>
 </div>
-<div>
-    <!--Tracker part of the website.-->
-    <class id="tracker-buttons">
+
+<div class="tracker-container">
+    <div id="tracker-buttons">
         <h1>Tracker</h1>
         <div id="entry-header"></div>
         <div id="date-header">
             <button id="previous-week">Previous Week</button>
             <button id="previous-day">Previous Day</button>
-            <input id="calendar" type="date"></input>
+            <input id="calendar" type="date" />
             <button id="next-day">Next Day</button>
             <button id="next-week">Next Week</button>
         </div>
-        <div>
-            <div id="trackHabits"></div>
-        </div>
-        <div>
-            <!--Graph part of the website-->
+        <div id="trackHabits"></div>
+        <div id="bar-graph-container">
             <h1>Graph</h1>
             <div id="bar-graph"></div>
         </div>
-    </class>
+    </div>
 </div>
